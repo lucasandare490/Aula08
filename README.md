@@ -1,8 +1,9 @@
+
 # Documentação da aula 08- 
 
 ## Informações Gerais
 - **Data de Execução**: 22/11/2024
-- **Aluno**: Pedro Lucas
+- **Aluno**: Lucas andre
 # Exercícios de JavaScript (revisão)
 
 
@@ -10,11 +11,10 @@
 
 
 ### Exercicio 01
-
-# Objetivo
+Objetivo
 A função deve verificar a idade de uma pessoa e retornar a classificação adequada ("Menor de idade" ou "Maior de idade") com base na idade fornecida.
 
-# conclusão do que eu fiz
+conclusão do que eu fiz
 
 Criei uma função chamada verificarIdade que:
 
@@ -46,10 +46,10 @@ console.log(verificarIdade(21));  // Resultado: Maior de idade
 
 ### Exercicio 02
 
-# objetivo 
+objetivo 
 uma função que ajuda a identificar o nome do dia da semana com base em um número, e trata casos em que o número fornecido não é válido (fora de 1 a 7).
 
-# conclusão do que eu fiz
+conclusão do que eu fiz
 Criei a função: A função deve ser chamada definirDiaDaSemana e deve receber um número como parâmetro.
 Usei uma estrutura condicional (switch ou if/else) para verificar o número e retornar o nome do dia correspondente.
 Verifiquei números fora do intervalo (menor que 1 ou maior que 7) e retornar "Número inválido".
@@ -90,10 +90,10 @@ console.log(definirDiaDaSemana(8));  // Resultado: Número inválido
 
 ### Exercicio 03
 
-# Objetivo
+Objetivo
 precisa criar a função parOuImpar, que verifica se um número é par ou ímpar usando o operador ternário. Se for par, retorna "Par", e se for ímpar, retorna "Ímpar".
 
-# conclusão do que eu fiz
+conclusão do que eu fiz
 Criei a função parOuImpar: A função deve receber um número como argumento.
 Usaei o operador ternário para verificar a condição:
 A condição a ser verificada é se o número é par (número % 2 === 0).
@@ -119,13 +119,13 @@ console.log(parOuImpar(22));  // Resultado: Par
 
 ### Exercicio 04
 
-# Objetivo
+Objetivo
 cria a função podeAcessar que:
 Verifica se o usuário é maior de 18 ou é administrador.
 Verifica se a conta não está bloqueada.
 Retorna true se as condições forem atendidas, caso contrário, retorna false.
 
-# conclusão do que eu fiz
+conclusão do que eu fiz
 Condição (usuario.idade > 18 || usuario.isAdmin): Verifica se a pessoa tem mais de 18 anos ou se ela é administradora.
 Condição !usuario.isBlocked: Verifica se a conta não está bloqueada (ou seja, isBlocked é false).
 Resultado:
@@ -155,12 +155,12 @@ console.log(podeAcessar({ idade: 16, isAdmin: true, isBlocked: true }));  // fal
 
 ### Exercicio 05
 
-# Objetivo 
+Objetivo 
 Cria uma arrow function que recebe o preço e a porcentagem de desconto.
 Calcular o preço com o desconto.
 Retornar o preço final após o desconto ser aplicado.
 
-# Conclusão do que eu fiz
+Conclusão do que eu fiz
 Criei uma função do tipo arrow function chamada calcularDesconto que recebe dois parâmetros:
 Preço original.
 Porcentagem de desconto.
@@ -182,3 +182,4 @@ const calcularDesconto = (precoOriginal, desconto) => {
 // Testando a função com os valores fornecidos
 console.log(calcularDesconto(100, 10));  // Resultado: 90
 console.log(calcularDesconto(250, 20));  // Resultado: 200
+>>>>>>> e13ae173f5b548217194d512bcaacae6aaee542b
